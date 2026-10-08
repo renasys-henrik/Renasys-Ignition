@@ -1,0 +1,16 @@
+services:
+
+  dev:
+    image: inductiveautomation/ignition:8.3.9
+    container_name: renasys-dev
+    ports:
+      - "8088:8088"
+    environment:
+      ACCEPT_IGNITION_EULA: "Y"
+    volumes:
+      - dev-data:/usr/local/bin/ignition/data
+      - ../../config:/usr/local/bin/ignition/data/config
+      - ../../projects:/usr/local/bin/ignition/data/projects
+
+volumes:
+  dev-data:
