@@ -1,0 +1,62 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Gauge"
+        },
+        "position": {
+          "height": 175,
+          "width": 300,
+          "x": 239,
+          "y": 100
+        },
+        "props": {
+          "backgroundColor": "",
+          "innerAxis": {
+            "data": "secondaryValue",
+            "maxValue": 80,
+            "percentRadius": 85,
+            "show": false,
+            "width": 1
+          },
+          "outerAxis": {
+            "data": "value",
+            "maxValue": 120,
+            "percentRadius": 100,
+            "ranges": [
+              {
+                "color": "#77B6D8",
+                "end": 80,
+                "start": 0,
+                "width": 8
+              },
+              {
+                "color": "#6E94D7",
+                "end": 105,
+                "start": 80,
+                "width": 12
+              },
+              {
+                "color": "#7A6BD5",
+                "end": 120,
+                "start": 105,
+                "width": 16
+              }
+            ],
+            "show": true,
+            "width": 1
+          }
+        },
+        "type": "ia.chart.gauge"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
