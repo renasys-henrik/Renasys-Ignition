@@ -1,0 +1,13 @@
+{
+  "host": "10.213.213.10",
+  "httpConnectTimeoutMillis": 10000,
+  "httpReadTimeoutMillis": 60000,
+  "pingMaxMissed": 30,
+  "pingRateMillis": 1000,
+  "pingTimeoutMillis": 300,
+  "port": 8088,
+  "receiveThreads": 5,
+  "sendThreads": 5,
+  "useSSL": false,
+  "wsTimeoutMillis": 10000
+}

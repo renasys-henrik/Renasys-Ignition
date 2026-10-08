@@ -34,6 +34,27 @@
       "maxActive": -1,
       "queueId": "_proxy_",
       "timeoutMillis": 3600000
+    },
+    {
+      "description": "Provides some information about a remote machine, such as the reachable URL",
+      "friendlyName": "Remote Gateway Info",
+      "maxActive": -1,
+      "queueId": "service_GanNodeDetailsService",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Handles EAM system messages and status updates",
+      "friendlyName": "EAM",
+      "maxActive": -1,
+      "queueId": "EAM",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Sends EAM agent initial contact information to the controller",
+      "friendlyName": "EAM Status Event Service",
+      "maxActive": -1,
+      "queueId": "service_StatusEventService",
+      "timeoutMillis": 60000
     }
   ]
 }
