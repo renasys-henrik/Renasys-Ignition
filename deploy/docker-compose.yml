@@ -8,6 +8,8 @@ services:
     environment:
       ACCEPT_IGNITION_EULA: "Y"
     volumes:
+      - central-data:/usr/local/bin/ignition/data
+      - ../gateways/central/config:/usr/local/bin/ignition/data/config
       - ../gateways/central/projects:/usr/local/bin/ignition/data/projects
 
   edge-01:
@@ -17,3 +19,9 @@ services:
       - "8188:8088"
     environment:
       ACCEPT_IGNITION_EULA: "Y"
+    volumes:
+      - edge-data:/usr/local/bin/ignition/data
+
+volumes:
+  central-data:
+  edge-data:

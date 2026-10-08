@@ -52,6 +52,21 @@
           }
         },
         "type": "ia.chart.gauge"
+      },
+      {
+        "meta": {
+          "name": "BreakpointContainer"
+        },
+        "position": {
+          "height": 200,
+          "width": 200,
+          "x": 276,
+          "y": 391
+        },
+        "props": {
+          "currentBreakpoint": "small"
+        },
+        "type": "ia.container.breakpt"
       }
     ],
     "meta": {

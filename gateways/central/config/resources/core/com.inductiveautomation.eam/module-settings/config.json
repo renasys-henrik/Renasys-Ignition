@@ -1,0 +1,20 @@
+{
+  "agentSettings": {
+    "controllerServerId": "",
+    "forwardLeasedLicense": false,
+    "httpConnectTimeout": 10,
+    "httpReadTimeout": 60,
+    "sendStatsInterval": 45
+  },
+  "controllerSettings": {
+    "archiveLocationMode": "Automatic",
+    "archivePath": "",
+    "backupRetentionAge": 0,
+    "backupRetentionTimeUnit": "Days",
+    "datasource": "",
+    "eventTableName": "agent_events",
+    "lowDiskThresholdMB": 1024,
+    "maxRetainedBackupCount": 5
+  },
+  "installMode": "Controller"
+}
